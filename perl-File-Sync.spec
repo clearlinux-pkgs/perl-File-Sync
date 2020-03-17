@@ -4,7 +4,7 @@
 #
 Name     : perl-File-Sync
 Version  : 0.11
-Release  : 13
+Release  : 14
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfile-sync-perl/libfile-sync-perl_0.11-2.debian.tar.xz
@@ -79,7 +79,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-File-Sync
-cp %{_builddir}/File-Sync-0.11/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-File-Sync/f23efe57ff9597e10055a4f0815c42cef121bedc
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-File-Sync/f23efe57ff9597e10055a4f0815c42cef121bedc
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -103,6 +103,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/File/Sync.pm
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/File/Sync/Sync.so
-/usr/lib/perl5/vendor_perl/5.30.1/x86_64-linux-thread-multi/auto/File/Sync/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/File/Sync.pm
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/File/Sync/Sync.so
+/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/File/Sync/autosplit.ix
