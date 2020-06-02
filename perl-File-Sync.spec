@@ -4,7 +4,7 @@
 #
 Name     : perl-File-Sync
 Version  : 0.11
-Release  : 14
+Release  : 15
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfile-sync-perl/libfile-sync-perl_0.11-2.debian.tar.xz
@@ -103,6 +103,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/File/Sync.pm
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/File/Sync/Sync.so
-/usr/lib/perl5/vendor_perl/5.30.2/x86_64-linux-thread-multi/auto/File/Sync/autosplit.ix
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/File/Sync.pm
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/File/Sync/Sync.so
+/usr/lib/perl5/vendor_perl/5.30.3/x86_64-linux-thread-multi/auto/File/Sync/autosplit.ix
