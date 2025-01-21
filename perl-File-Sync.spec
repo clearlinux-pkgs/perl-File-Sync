@@ -5,7 +5,7 @@
 #
 Name     : perl-File-Sync
 Version  : 0.11
-Release  : 28
+Release  : 29
 URL      : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/B/BR/BRIANSKI/File-Sync-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libf/libfile-sync-perl/libfile-sync-perl_0.11-2.debian.tar.xz
